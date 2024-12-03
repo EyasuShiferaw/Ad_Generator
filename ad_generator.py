@@ -57,9 +57,7 @@ class AdGenerator:
         
         Returns:
             str: The generated ad.
-        """
-        logger.info("constructing messages")
-        
+        """ 
         messages = self.construct_messages()
         if not isinstance(messages, list):
             logger.error("Can't construct messages")
