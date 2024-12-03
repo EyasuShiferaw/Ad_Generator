@@ -132,7 +132,6 @@ def pipeline_for_xml_parse(xml_data: str) -> list[dict]:
         raise
     else:
         logger.info(f"Successfully parsed XML data")
-        print(ad_concepts)
         return ad_concepts
 
     

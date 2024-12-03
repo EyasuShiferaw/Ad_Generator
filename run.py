@@ -13,8 +13,8 @@ logger = logging.getLogger(__name__)
 
 def main():
 
-    business_details = os.environ.get('BUSINESS_DETAILS', 'default_value')
-    keywords = os.environ.get('KEYWORDS', 'default_value')
+    business_details = os.environ.get('business_details', 'default_value')
+    keywords = os.environ.get('keywords', 'default_value')
 
 
     if business_details == 'default_value' or business_details == '':
@@ -43,7 +43,6 @@ def main():
     output_file = output_dir / 'result.pdf'
 
     generate_pdf_report(ad, output_file)
-    print(ad, type(ad))
     
 
 if __name__ == "__main__":
