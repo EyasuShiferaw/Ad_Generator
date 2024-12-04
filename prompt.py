@@ -81,7 +81,7 @@ USER_PROMPT = """
             <Description>Unique headline options that can be used together in any combination without being redundant</Description>
         </Headlines>
         <Description>
-            <MaxLength>90</MaxLength>
+            <MaxLength>180</MaxLength>
             <ComplimentaryText>Compliments the headline</ComplimentaryText>
         </Description>
         <Explanation>
